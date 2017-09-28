@@ -1,0 +1,231 @@
+body {
+  background-color: #2c033e;
+}
+
+header {
+  .head-img {
+    width: 100%;
+  }
+}
+
+.bg-img {
+  position: absolute;
+  top: 4.04rem;
+  left: 0.4rem;
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 6.65rem;
+    height: 5.76rem;
+  }
+}
+
+#lottery {
+  .btn {
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  position: absolute;
+  top: 4.6rem;
+  left: 0.975rem;
+  table {
+    margin: 0 auto;
+    tr {
+      td {
+        .mask {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          left: 0;
+          top: -4px;
+          border: 0.07rem solid #fff225;
+          border-radius: 14px;
+          display: none;
+        }
+        &.active {
+          .mask {
+            display: block;
+          }
+        }
+        position: relative;
+
+        height: 100%;
+        text-align: center;
+        color: #333;
+        font-index: -999;
+        img {
+          display: block;
+          width: 1.84rem;
+          height: 1.44rem;
+        }
+      }
+    }
+  }
+}
+
+.lottery-font {
+  position: absolute;
+  top: 9.1rem;
+  left: 2.4rem;
+  span {
+    font-size: .3rem;
+    color: #fff;
+  }
+  .lottery-number {
+    display: inline-block;
+    padding: 0 0.08rem;
+    font-size: .42rem;
+    color: #ffe930;
+  }
+}
+
+.share-list {
+  position: absolute;
+  top: 10.1rem;
+  left: 0.5rem;
+  div {
+    font-size: 0.26rem;
+    color: #fff;
+    span {
+      color: #fbc93f;
+      font-size: 0.26rem;
+    }
+  }
+  div:nth-child(1) {
+    padding-bottom: .17rem;
+  }
+}
+
+.news {
+  width: 100%;
+  position: absolute;
+  top: 11.3rem;
+  .fl {
+    margin-left: 0.44rem;
+    img {
+      display: inline-block;
+      width: 0.39rem;
+      height: 0.31rem;
+    }
+  }
+  .news-info {
+    display: inline-block;
+    margin-left: 0.08rem;
+    color: #c256ec;
+    font-size: 0.24rem;
+
+  }
+  .fr {
+    margin-right: 0.4rem;
+    font-size: 0.24rem;
+    a {
+      color: #dca8f0;
+      text-decoration: underline !important;
+    }
+  }
+}
+
+.rule {
+  width: 100%;
+  position: absolute;
+  top: 12.4rem;
+  margin-bottom: 0.5rem;
+  .rule-head {
+    color: #c256ec;
+    text-align: center;
+    .line {
+      display: inline-block;
+
+    }
+    .rule-name {
+      color: #c256ec;
+      font-size: 0.3rem;
+      margin: 0 0.36rem;
+    }
+  }
+  .rule-all {
+    margin: 0 auto;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    margin-top: 0.29rem;
+    p {
+      font-size: 0.24rem;
+      color: #c023ec;
+    }
+  }
+}
+
+#overlay {
+  background: #000;
+  filter: alpha(opacity=50);
+  /* IE的透明度 */
+  opacity: 0.8;
+  /* 透明度 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  display: none;
+}
+
+.hj {
+  position: relative;
+  width: 6.16rem;
+  /*  height: 3.88rem;*/
+  /* position: absolute;*/
+  z-index: 999;
+  display: none;
+  background-color: #2c033e;
+  border-radius: 14px;
+  border: 1px solid #a300ef;
+  .close-btn {
+    width: .4rem;
+    position: absolute;
+    right: -6px;
+    top: -5px;
+  }
+  .hj-info {
+    display: block;
+    margin-top: 7px;
+    height: 0.6rem;
+    width: 100%;
+    color: #bf1cff;
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .fr {
+    margin-right: 0.34rem;
+  }
+  .fl {
+    margin-left: 0.34rem;
+  }
+}
+
+.info {
+  position: absolute;
+  display: none;
+  z-index: 99999;
+  width: 6.16rem;
+  height: 2.02rem;
+  background-color: #2c033e;
+  border-radius: 14px;
+  border: 1px solid #a300ef;
+  left:34px;
+  span {
+    display: block;
+    text-align: center;
+    color: #bf1cff;
+    font-size: 0.28rem;
+    margin-top: 0.3rem;
+  }
+  img {
+    width: 1.87rem;
+    display: block;
+    margin: 0 auto;
+    padding-top: 0.4rem;
+  }
+}
