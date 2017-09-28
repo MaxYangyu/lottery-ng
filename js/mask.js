@@ -15,6 +15,11 @@ $('.hj>.close-btn').on('click',function () {
     $('body').css('overflow','auto');
 })
 
+//
+$('.ok-btn').onclick=function () {
+    hideOverlay()
+    $('.info').css("display",'none')
+}
 
 /* 显示遮罩层 */
 function showOverlay() {
