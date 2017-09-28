@@ -40,6 +40,8 @@ $(function() {
                 lottery.times = 0;
                 lottery.click = false;
                 //可以在这个位置写上中奖弹框，这个是转盘停止时触发事件
+                showOverlay()
+                $('.info').css('display','block');
                 console.log('您抽中了第' + lottery.place + '个奖品');
             } else {
                 if (lottery.times < lottery.cycle) {
