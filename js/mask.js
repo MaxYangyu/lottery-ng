@@ -16,10 +16,10 @@ $('.hj>.close-btn').on('click',function () {
 })
 
 //
-$('.ok-btn').onclick=function () {
+$('.ok-btn').on('click',function () {
     hideOverlay()
     $('.info').css("display",'none')
-}
+})
 
 /* 显示遮罩层 */
 function showOverlay() {
