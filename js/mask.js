@@ -4,7 +4,7 @@ var scrollLeft = $(document).scrollLeft();
 $('.fr>a').on('click',function () {
     showOverlay();
     $('.hj').css('display','block');
-    $('.hj').css('position' ,'absolute').css('left',left + scrollLeft);
+    $('.hj').css('position' ,'absolute').css('left',left + scrollLeft).css('top','185px');
     $('.hj').bind("touchmove",function(e){
         e.preventDefault();
     });
