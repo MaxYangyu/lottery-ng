@@ -133,10 +133,6 @@
 </div>
 
 
-
-
-
-
 </body>
 
 <script src="js/jquery-latest.js"></script>
@@ -152,13 +148,14 @@
         var z = 0;//向上滚动top值
         function up() {//向上滚动
             listPanel.animate({//中奖结果
-                'top': (z -10) + 'px'
+                'top': (z - 15) + 'px'
             }, 1500, 'linear', function () {
                 listPanel.css({'top': '0px'})
                     .find("li:first").appendTo(listPanel);
                 up();
             });
         }
+
         up();
     });
 </script>

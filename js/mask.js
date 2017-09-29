@@ -22,6 +22,7 @@ $('.hj>.close-btn').on('click',function () {
 $('.ok-btn').on('click',function () {
     hideOverlay()
     $('.info').css("display",'none')
+    $('body').css('overflow','auto');
 })
 
 /* 显示遮罩层 */
