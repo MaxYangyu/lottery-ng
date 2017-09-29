@@ -6,7 +6,7 @@ var flag=0;
 $('.fr>a').on('click',function () {
     showOverlay();
     $('.hj').css('display','block');
-    $('.hj').css('position' ,'absolute').css('left',left + scrollLeft).css('top','185px');
+    $('.hj').css('position' ,'fixed').css('left',left + scrollLeft).css('top','35%');
     flag=1;
 
     $('body').css('overflow','hidden');
