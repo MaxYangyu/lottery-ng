@@ -104,6 +104,20 @@ header .head-img {
   color: #c256ec;
   font-size: 0.24rem;
 }
+.news .news-info .maquee {
+  display: inline-block;
+}
+.news .news-info ul {
+  display: inline-block;
+  position: relative;
+  /*      top:-17px;
+      left: 70px;*/
+  height: 17px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  vertical-align: bottom;
+}
 .news .fr {
   margin-right: 0.4rem;
   font-size: 0.24rem;

@@ -69,7 +69,17 @@
         <img src="img/图层-102@2x.png" class="img-responsive ">
     </div>
     <div class="news-info">
-        <span>鸿运当头！<i>XXX幸运大转盘抽中了XXX！</i></span>
+        <div class="maquee">
+            鸿运当头！
+            <ul>
+                <li>0幸运大转盘抽中了XXX！</li>
+                <li>1幸运大转盘抽中了XXX！</li>
+                <li>2幸运大转盘抽中了XXX！</li>
+                <li>3幸运大转盘抽中了XXX！</li>
+                <li>4幸运大转盘抽中了XXX！</li>
+                <li>5幸运大转盘抽中了XXX！</li>
+            </ul>
+        </div>
     </div>
     <div class="fr">
         <a href="javascript:void (0);">获奖记录</a>
@@ -118,7 +128,7 @@
 </div>
 <!--获奖信息-->
 <div class="info">
-    <span>恭喜您获得黄金VIP三天体验</span>
+    <span>恭喜您获得<i>黄金VIP三天体验</i></span>
     <img src="img/确定@2x.png" class="img-responsive ok-btn">
 </div>
 
@@ -136,5 +146,20 @@
 
 <script src="js/index.js"></script>
 <script src="js/mask.js"></script>
-
+<script>
+    $(function () {
+        var listPanel = $('.maquee ul');
+        var z = 0;//向上滚动top值
+        function up() {//向上滚动
+            listPanel.animate({//中奖结果
+                'top': (z -10) + 'px'
+            }, 1500, 'linear', function () {
+                listPanel.css({'top': '0px'})
+                    .find("li:first").appendTo(listPanel);
+                up();
+            });
+        }
+        up();
+    });
+</script>
 </html>
