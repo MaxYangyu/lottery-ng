@@ -42,6 +42,7 @@ $(function() {
                 //可以在这个位置写上中奖弹框，这个是转盘停止时触发事件
                 showOverlay()
                 $('.info').css('display','block');
+                flag=1;
                 $('body').css('overflow','hidden');
                 //
                 console.log('您抽中了第' + lottery.place + '个奖品');
