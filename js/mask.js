@@ -1,20 +1,29 @@
 var left = ($(window).width() - $('.hj').width())/2;
 var scrollLeft = $(document).scrollLeft();
+var flag=0;
+
 /*点击出现遮罩层*/
 $('.fr>a').on('click',function () {
     showOverlay();
     $('.hj').css('display','block');
     $('.hj').css('position' ,'absolute').css('left',left + scrollLeft).css('top','185px');
-    $('.hj').bind("touchmove",function(e){
-        e.preventDefault();
-    });
+    flag=1;
+
     $('body').css('overflow','hidden');
 
 });
+
+document.addEventListener('touchmove', function (event) { 　　 //监听滚动事件
+    if(flag==1){　　　　　　　　　　　　　　　　　　　　　　　　　　　　//判断是遮罩显示时执行，禁止滚屏
+        event.preventDefault();　　　　　　　　　　　　　　　　　　　//最关键的一句，禁止浏览器默认行为
+    }
+})
+
 /*点击关闭遮罩层*/
 $('.hj>.close-btn').on('click',function () {
     $('.hj').css('display','none');
     hideOverlay()
+    flag=0;
     $('body').css('overflow','auto');
 })
 

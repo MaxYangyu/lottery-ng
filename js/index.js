@@ -66,7 +66,7 @@ $(function() {
             }
             return false;
         },
-        getLottery: function() {//ajax请求中奖接口，本案例注释便于案例正常展示效果，实际中可参考注释的代码
+        getLottery: function() {//ajax请求中奖接口
             // $.ajax({
             //     url: '/activity/lottery',//中奖接口
             //     type: 'POST',
