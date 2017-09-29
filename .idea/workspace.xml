@@ -76,8 +76,8 @@
           <file leaf-file-name="mask.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/mask.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
-                  <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+                <state relative-caret-position="207">
+                  <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -213,12 +213,12 @@
       <option name="presentableId" value="Default" />
       <updated>1506567284844</updated>
       <workItem from="1506567286148" duration="23679000" />
-      <workItem from="1506647704977" duration="2709000" />
+      <workItem from="1506647704977" duration="2833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26388000" />
+    <option name="totallyTimeSpent" value="26512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="406" y="36" width="1134" height="1078" extended-state="0" />
@@ -406,8 +406,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mask.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        <state relative-caret-position="207">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding />
         </state>
       </provider>
